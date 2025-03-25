@@ -244,7 +244,6 @@ FetchContent_MakeAvailable(dr_libs)
 #==============================================================================#
 
 include_directories(
-  ${CMAKE_CURRENT_SOURCE_DIR}
   ${CMAKE_CURRENT_SOURCE_DIR}/src
   ${CMAKE_CURRENT_BINARY_DIR}
   ${CMAKE_CURRENT_SOURCE_DIR}/libultraship/include
